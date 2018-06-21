@@ -1,0 +1,1266 @@
+{
+  "CL": [
+    {
+      "date": "2018-06-15",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.5.tar.gz",
+          "size": 346281801,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.5.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.5.dmg",
+          "size": 327799211,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.5.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.5.exe",
+          "size": 249333008,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.5.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.5.zip",
+          "size": 310298031,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.5.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/06/clion-2018-1-4-update/",
+      "version": "2018.1.5",
+      "majorVersion": "2018.1",
+      "build": "181.5281.33"
+    },
+    {
+      "date": "2018-06-13",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.4.tar.gz",
+          "size": 350651596,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.4.dmg",
+          "size": 332206575,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.4.exe",
+          "size": 252650192,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.4.zip",
+          "size": 314677819,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/06/clion-2018-1-4-update/",
+      "version": "2018.1.4",
+      "majorVersion": "2018.1",
+      "build": "181.5281.26"
+    },
+    {
+      "date": "2018-05-24",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.3.tar.gz",
+          "size": 346275560,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.3.dmg",
+          "size": 327770952,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.3.exe",
+          "size": 249330960,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.3.zip",
+          "size": 310291654,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/05/clion-2018-1-3-bug-fix-update/",
+      "version": "2018.1.3",
+      "majorVersion": "2018.1",
+      "build": "181.5087.36"
+    },
+    {
+      "date": "2018-04-25",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.2.tar.gz",
+          "size": 343383152,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.2.dmg",
+          "size": 324863381,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.2.exe",
+          "size": 246910512,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.2.zip",
+          "size": 307310574,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/04/clion-2018-1-2-bug-fix-update/",
+      "version": "2018.1.2",
+      "majorVersion": "2018.1",
+      "build": "181.4668.70"
+    },
+    {
+      "date": "2018-04-11",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.1.tar.gz",
+          "size": 342486150,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.1.dmg",
+          "size": 323947946,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.1.exe",
+          "size": 246033384,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.1.zip",
+          "size": 306419238,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/04/clion-2018-1-1-update-is-available/",
+      "version": "2018.1.1",
+      "majorVersion": "2018.1",
+      "build": "181.4445.84"
+    },
+    {
+      "date": "2018-03-28",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.tar.gz",
+          "size": 333789580,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.dmg",
+          "size": 318405401,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.exe",
+          "size": 241887344,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2018.1.zip",
+          "size": 301451827,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2018.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://www.jetbrains.com/clion/whatsnew/",
+      "version": "2018.1",
+      "majorVersion": "2018.1",
+      "build": "181.4203.549"
+    },
+    {
+      "date": "2018-03-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.4.tar.gz",
+          "size": 331195446,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.4.dmg",
+          "size": 313530360,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.4.exe",
+          "size": 245180312,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.4.zip",
+          "size": 304952241,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/03/clion-update-fix-for-ssh-access-to-github",
+      "version": "2017.3.4",
+      "majorVersion": "2017.3",
+      "build": "173.4674.29"
+    },
+    {
+      "date": "2018-01-31",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.3.tar.gz",
+          "size": 331047955,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.3.dmg",
+          "size": 313346270,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.3.exe",
+          "size": 245033232,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.3.zip",
+          "size": 304796621,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/01/clion-2018-1-eap-debug-on-wsl-code-folding-of-the-control-statements-and-more/#2017.3.3",
+      "version": "2017.3.3",
+      "majorVersion": "2017.3",
+      "build": "173.4548.31"
+    },
+    {
+      "date": "2018-01-18",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.2.tar.gz",
+          "size": 331045584,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.2.dmg",
+          "size": 313307645,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.2.exe",
+          "size": 245025464,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.2.zip",
+          "size": 304787916,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/01/clion-2017-3-2-bug-fix-update/",
+      "version": "2017.3.2",
+      "majorVersion": "2017.3",
+      "build": "173.4301.33"
+    },
+    {
+      "date": "2017-12-27",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.1.tar.gz",
+          "size": 331052532,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.1.dmg",
+          "size": 313321230,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.1.exe",
+          "size": 245012120,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.1.zip",
+          "size": 304765194,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/12/clion-2017-3-1-update-is-available/",
+      "version": "2017.3.1",
+      "majorVersion": "2017.3",
+      "build": "173.4127.32"
+    },
+    {
+      "date": "2017-11-30",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.tar.gz",
+          "size": 331019046,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.dmg",
+          "size": 313365401,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.exe",
+          "size": 244995888,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.3.zip",
+          "size": 304729364,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://www.jetbrains.com/clion/whatsnew/",
+      "version": "2017.3",
+      "majorVersion": "2017.3",
+      "build": "173.3727.114"
+    },
+    {
+      "date": "2018-03-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.4.tar.gz",
+          "size": 317765151,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.4.dmg",
+          "size": 299455387,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.4.exe",
+          "size": 246757888,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.4.zip",
+          "size": 309340472,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/03/clion-update-fix-for-ssh-access-to-github",
+      "version": "2017.2.4",
+      "majorVersion": "2017.2",
+      "build": "172.4574.23"
+    },
+    {
+      "date": "2017-10-02",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.3.tar.gz",
+          "size": 317631164,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.3.dmg",
+          "size": 299266088,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.3.exe",
+          "size": 246634608,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.3.zip",
+          "size": 309223137,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://confluence.jetbrains.com/display/CLION/CLion+2017.2.3%2C+build+172.4343.16",
+      "version": "2017.2.3",
+      "majorVersion": "2017.2",
+      "build": "172.4343.16"
+    },
+    {
+      "date": "2017-08-30",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.2.tar.gz",
+          "size": 317678557,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.2.dmg",
+          "size": 299418438,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.2.exe",
+          "size": 246738368,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.2.zip",
+          "size": 309312740,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/08/clion-2017-2-2-update-is-available/",
+      "version": "2017.2.2",
+      "majorVersion": "2017.2",
+      "build": "172.3968.17"
+    },
+    {
+      "date": "2017-08-02",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.1.tar.gz",
+          "size": 317210113,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.1.dmg",
+          "size": 299338729,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.1.exe",
+          "size": 246678488,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.1.zip",
+          "size": 309228305,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://confluence.jetbrains.com/display/CLION/CLion+2017.2.1%2C+build+172.3544.40",
+      "version": "2017.2.1",
+      "majorVersion": "2017.2",
+      "build": "172.3544.40"
+    },
+    {
+      "date": "2017-07-19",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.tar.gz",
+          "size": 315270710,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.dmg",
+          "size": 297534554,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.exe",
+          "size": 244694840,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.2.zip",
+          "size": 307293883,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/07/clion-2017-2-released-clang-tidy-and-more/",
+      "version": "2017.2",
+      "majorVersion": "2017.2",
+      "build": "172.3317.49"
+    },
+    {
+      "date": "2018-03-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.4.tar.gz",
+          "size": 294848408,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.4.dmg",
+          "size": 279453881,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.4.exe",
+          "size": 230754944,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.4.zip",
+          "size": 290566832,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/03/clion-update-fix-for-ssh-access-to-github",
+      "version": "2017.1.4",
+      "majorVersion": "2017.1",
+      "build": "171.4694.76"
+    },
+    {
+      "date": "2017-06-08",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.3.tar.gz",
+          "size": 294910573,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.3.dmg",
+          "size": 279614336,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.3.exe",
+          "size": 230846480,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.3.zip",
+          "size": 290650712,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://confluence.jetbrains.com/display/CLION/CLion+2017.1.3%2C+build+171.4694.31",
+      "version": "2017.1.3",
+      "majorVersion": "2017.1",
+      "build": "171.4694.31"
+    },
+    {
+      "date": "2017-05-16",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.2.tar.gz",
+          "size": 294894181,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.2.dmg",
+          "size": 279611329,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.2.exe",
+          "size": 230833456,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.2.zip",
+          "size": 290628891,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://youtrack.jetbrains.com/releaseNotes/CPP?q=%23Fixed+Fix+versions%3A+%7BCLion+2017.1.2%7D+sort+by%3A+Subsystem+%2C+Severity+%2C+votes&title=Release+Notes+for+2017.1.2+%28171.4694.4%29&token=450c41a6-6bbe-42a9-b0de-dfd1a461e46b",
+      "version": "2017.1.2",
+      "majorVersion": "2017.1",
+      "build": "171.4694.4"
+    },
+    {
+      "date": "2017-04-12",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.1.tar.gz",
+          "size": 294574159,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.1.dmg",
+          "size": 279347596,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.1.exe",
+          "size": 230856360,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.1.zip",
+          "size": 290332682,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/04/clion-2017-1-1-update-is-available/",
+      "version": "2017.1.1",
+      "majorVersion": "2017.1",
+      "build": "171.4073.41"
+    },
+    {
+      "date": "2017-03-29",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.tar.gz",
+          "size": 294380925,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.dmg",
+          "size": 279132593,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.exe",
+          "size": 230679424,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2017.1.zip",
+          "size": 290125871,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2017.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/03/clion-2017-1-released/",
+      "version": "2017.1",
+      "majorVersion": "2017.1",
+      "build": "171.3780.121"
+    },
+    {
+      "date": "2018-03-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.6.tar.gz",
+          "size": 284063604,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.6.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.6.dmg",
+          "size": 268340188,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.6.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.6.exe",
+          "size": 234669384,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.6.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.6.zip",
+          "size": 292528354,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.6.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2018/03/clion-update-fix-for-ssh-access-to-github",
+      "version": "2016.3.6",
+      "majorVersion": "2016.3",
+      "build": "163.15529.9"
+    },
+    {
+      "date": "2017-03-22",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.5.tar.gz",
+          "size": 284149426,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.5.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.5.dmg",
+          "size": 268568361,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.5.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.5.exe",
+          "size": 234754944,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.5.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.5.zip",
+          "size": 292616899,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.5.zip.sha256"
+        }
+      },
+      "notesLink": "https://confluence.jetbrains.com/display/CLION/CLion+2016.3.5%2C+build+163.15188.10",
+      "version": "2016.3.5",
+      "majorVersion": "2016.3",
+      "build": "163.15188.10"
+    },
+    {
+      "date": "2017-03-09",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.4.tar.gz",
+          "size": 284161600,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.4.dmg",
+          "size": 268575608,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.4.exe",
+          "size": 234756872,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.4.zip",
+          "size": 292620378,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://confluence.jetbrains.com/display/CLION/CLion+2016.3.4%2C+build+163.13906.23",
+      "version": "2016.3.4",
+      "majorVersion": "2016.3",
+      "build": "163.13906.23"
+    },
+    {
+      "date": "2017-02-15",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.3.tar.gz",
+          "size": 284168815,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.3.dmg",
+          "size": 268579654,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.3.exe",
+          "size": 234746560,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.3.zip",
+          "size": 292625179,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2017/02/clion-2016-3-3-bug-fix-update/",
+      "version": "2016.3.3",
+      "majorVersion": "2016.3",
+      "build": "163.13906.4"
+    },
+    {
+      "date": "2016-12-28",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.2.tar.gz",
+          "size": 284057678,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.2.dmg",
+          "size": 268401708,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.2.exe",
+          "size": 234662448,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.2.zip",
+          "size": 292519315,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/12/clion-2016-3-2-update-cmake-changes-and-project-templates/",
+      "version": "2016.3.2",
+      "majorVersion": "2016.3",
+      "build": "163.10154.43"
+    },
+    {
+      "date": "2016-12-14",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.1.tar.gz",
+          "size": 283810256,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.1.dmg",
+          "size": 268253609,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.1.exe",
+          "size": 234472952,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.1.zip",
+          "size": 292277010,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.1.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/12/clion-2016-3-1-update-is-available/",
+      "version": "2016.3.1",
+      "majorVersion": "2016.3",
+      "build": "163.9166.31"
+    },
+    {
+      "date": "2016-11-22",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.tar.gz",
+          "size": 283470105,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.dmg",
+          "size": 267854790,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.exe",
+          "size": 234162032,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.3.zip",
+          "size": 291956204,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/11/clion-2016-3-released/",
+      "version": "2016.3",
+      "majorVersion": "2016.3",
+      "build": "163.7743.47"
+    },
+    {
+      "date": "2016-10-19",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.3.tar.gz",
+          "size": 288453534,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.3.dmg",
+          "size": 269030273,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.3.exe",
+          "size": 234234168,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.3.zip",
+          "size": 289658930,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.3.zip.sha256"
+        },
+        "windowsZipWithOracleJRE": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.3-oracle-win.zip",
+          "size": 288041703,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.3-oracle-win.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/10/clion-2016-2-3-update-with-new-cmake-bundled-and-fix-for-sensitive-scrolling-on-macos-sierra",
+      "version": "2016.2.3",
+      "majorVersion": "2016.2",
+      "build": "162.2228.26"
+    },
+    {
+      "date": "2016-09-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.2.tar.gz",
+          "size": 287243689,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.2.dmg",
+          "size": 270937808,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.2.exe",
+          "size": 234215768,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.2.zip",
+          "size": 289765906,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.2.zip.sha256"
+        },
+        "windowsZipWithOracleJRE": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.2-oracle-win.zip",
+          "size": 288006417,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.2-oracle-win.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/09/clion-2016-2-2-update-is-available/",
+      "version": "2016.2.2",
+      "majorVersion": "2016.2",
+      "build": "162.1967.7"
+    },
+    {
+      "date": "2016-08-10",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.1.tar.gz",
+          "size": 287103613,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.1.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.1.dmg",
+          "size": 270872872,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.1.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.1.exe",
+          "size": 234066160,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.1.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.1.zip",
+          "size": 289570697,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.1.zip.sha256"
+        },
+        "windowsZipWithOracleJRE": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.1-oracle-win.zip",
+          "size": 287935403,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.1-oracle-win.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/08/clion-2016-2-1-update-is-available/",
+      "version": "2016.2.1",
+      "majorVersion": "2016.2",
+      "build": "162.1628.20"
+    },
+    {
+      "date": "2016-07-20",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.tar.gz",
+          "size": 282330694,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.dmg",
+          "size": 266125137,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.exe",
+          "size": 229604360,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2.zip",
+          "size": 284768058,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2.zip.sha256"
+        },
+        "windowsZipWithOracleJRE": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.2-oracle-win.zip",
+          "size": 283132764,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.2-oracle-win.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/07/clion-2016-2-released/",
+      "version": "2016.2",
+      "majorVersion": "2016.2",
+      "build": "162.1236.16"
+    },
+    {
+      "date": "2016-09-06",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.4.tar.gz",
+          "size": 245404682,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.4.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.4.dmg",
+          "size": 259780202,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.4.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.4.exe",
+          "size": 209958984,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.4.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.4.zip",
+          "size": 261614141,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.4.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/09/clion-2016-2-2-update-is-available/",
+      "version": "2016.1.4",
+      "majorVersion": "2016.1",
+      "build": "145.2073.2"
+    },
+    {
+      "date": "2016-06-07",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.3.tar.gz",
+          "size": 245457031,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.3.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.3.dmg",
+          "size": 259803329,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.3.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.3.exe",
+          "size": 210003808,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.3.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.3.zip",
+          "size": 261659705,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.3.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/clion/2016/06/clion-2016-1-3-bug-fix-update/",
+      "version": "2016.1.3",
+      "majorVersion": "2016.1",
+      "build": "145.1617"
+    },
+    {
+      "date": "2016-05-11",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2016/05/clion-2016-1-2-bug-fix-update/",
+      "version": "2016.1.2",
+      "majorVersion": "2016.1",
+      "build": "145.971"
+    },
+    {
+      "date": "2016-05-18",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.tar.gz",
+          "size": 245359223,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.dmg",
+          "size": 260125950,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.exe",
+          "size": 209944776,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.zip",
+          "size": 261555848,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-2016.1.2b.zip.sha256"
+        }
+      },
+      "version": "2016.1.2b",
+      "majorVersion": "2016.1",
+      "build": "145.972.6"
+    },
+    {
+      "date": "2016-03-31",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2016/03/clion-2016-1-1-bug-fix-update-is-out/",
+      "version": "2016.1.1",
+      "majorVersion": "2016.1",
+      "build": "145.597"
+    },
+    {
+      "date": "2016-03-17",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2016/03/clion-2016-1-released-better-language-support-and-new-dev-tools/",
+      "version": "2016.1",
+      "majorVersion": "2016.1",
+      "build": "145.258"
+    },
+    {
+      "date": "2016-05-11",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.2.5.tar.gz",
+          "size": 228774487,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.2.5.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-1.2.5-custom-jdk-bundled.dmg",
+          "size": 246350935,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-1.2.5-custom-jdk-bundled.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.2.5.exe",
+          "size": 179594872,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.2.5.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.2.5.zip",
+          "size": 226848237,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.2.5.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/blog/2016/05/11/security-update-for-intellij-based-ides-v2016-1-and-older-versions/",
+      "version": "1.2.5",
+      "majorVersion": "1.2",
+      "build": "143.2370"
+    },
+    {
+      "date": "2015-12-25",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/12/clion-1-2-4-bug-fix-update",
+      "version": "1.2.4",
+      "majorVersion": "1.2",
+      "build": "143.1186"
+    },
+    {
+      "date": "2015-12-23",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/12/clion-1-2-3-bug-fix-update",
+      "version": "1.2.3",
+      "majorVersion": "1.2",
+      "build": "143.1185"
+    },
+    {
+      "date": "2015-12-10",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/12/clion-1-2-2-update-is-out",
+      "version": "1.2.2",
+      "majorVersion": "1.2",
+      "build": "143.1184"
+    },
+    {
+      "date": "2015-11-11",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/11/clion-1-2-1-bug-fixes-update",
+      "version": "1.2.1",
+      "majorVersion": "1.2",
+      "build": "143.382"
+    },
+    {
+      "date": "2015-11-02",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/10/clion-1-2-be-more-powerful",
+      "version": "1.2",
+      "majorVersion": "1.2",
+      "build": "143.381"
+    },
+    {
+      "date": "2016-05-11",
+      "type": "release",
+      "downloads": {
+        "linux": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.1.2.tar.gz",
+          "size": 196395538,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.1.2.tar.gz.sha256"
+        },
+        "mac": {
+          "link": "https://download.jetbrains.com/cpp/CLion-1.1.2.dmg",
+          "size": 161801273,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-1.1.2.dmg.sha256"
+        },
+        "macWithJDK": {
+          "link": "https://download.jetbrains.com/cpp/CLion-1.1.2-custom-jdk-bundled.dmg",
+          "size": 231017362,
+          "checksumLink": "https://download.jetbrains.com/cpp/CLion-1.1.2-custom-jdk-bundled.dmg.sha256"
+        },
+        "windows": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.1.2.exe",
+          "size": 162643952,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.1.2.exe.sha256"
+        },
+        "windowsZip": {
+          "link": "https://download.jetbrains.com/cpp/clion-1.1.2.zip",
+          "size": 212169030,
+          "checksumLink": "https://download.jetbrains.com/cpp/clion-1.1.2.zip.sha256"
+        }
+      },
+      "notesLink": "https://blog.jetbrains.com/blog/2016/05/11/security-update-for-intellij-based-ides-v2016-1-and-older-versions/",
+      "version": "1.1.2",
+      "majorVersion": "1.1",
+      "build": "141.3058"
+    },
+    {
+      "date": "2015-09-03",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/09/clion-1-1-1-update",
+      "version": "1.1.1",
+      "majorVersion": "1.1",
+      "build": "141.2614"
+    },
+    {
+      "date": "2015-08-18",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/08/clion-1-1-released",
+      "version": "1.1",
+      "majorVersion": "1.1",
+      "build": "141.2348"
+    },
+    {
+      "date": "2015-07-10",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/07/clion-1-0-5-bug-fix-update",
+      "version": "1.0.5",
+      "majorVersion": "1.0",
+      "build": "141.875"
+    },
+    {
+      "date": "2015-06-16",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/06/clion-1-0-4-update-fix-for-command-timed-out-problem",
+      "version": "1.0.4",
+      "majorVersion": "1.0",
+      "build": "141.874"
+    },
+    {
+      "date": "2015-05-22",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/05/clion-1-0-3-critical-update",
+      "version": "1.0.3",
+      "majorVersion": "1.0",
+      "build": "141.873"
+    },
+    {
+      "date": "2015-05-18",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/05/clion-1-0-2-update",
+      "version": "1.0.2",
+      "majorVersion": "1.0",
+      "build": "141.871"
+    },
+    {
+      "date": "2015-04-28",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/04/clion-1-0-1-update",
+      "version": "1.0.1",
+      "majorVersion": "1.0",
+      "build": "141.870"
+    },
+    {
+      "date": "2015-04-14",
+      "type": "release",
+      "notesLink": "https://blog.jetbrains.com/clion/2015/04/clion-1-0-has-finally-arrived",
+      "version": "1.0",
+      "majorVersion": "1.0",
+      "build": "141.353"
+    }
+  ]
+}
