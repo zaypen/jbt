@@ -21,6 +21,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/zaypen/gest"
+  packages = ["."]
+  revision = "a326fa5beca76854be723d42616ed2d346f05c17"
+
+[[projects]]
+  branch = "master"
   name = "howett.net/plist"
   packages = ["."]
   revision = "500bd5b9081b5957ac10389f86e069869f00c348"
@@ -28,6 +34,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "796e2eb6985e242077b729e2901cf79613a0e5eb6da302ec10262f9b3e5ca7e0"
+  inputs-digest = "6c7ac10725499cad1118b770e05e07c389dfd435101480b334ea282110acf74b"
   solver-name = "gps-cdcl"
   solver-version = 1

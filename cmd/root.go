@@ -7,7 +7,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   os.Args[0],
+	Use:   "jbt",
 	Short: "JetBrains tools",
 	Long:  "JBT is a toolbox to manage your JetBrains products",
 }
