@@ -6,11 +6,13 @@ git:
   depth: 1
 
 before_install:
+  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+  - dep ensure
   - go get github.com/mitchellh/gox
 
 script:
   - go test ./...
-  - if [ "${LATEST}" = "true" ]; then gox -os="linux darwin windows" -arch="amd64" -output="jbt.." -ldflags "-X main.Rev=`git rev-parse --short HEAD`" -verbose ./...; fi
+  - gox -os="linux darwin windows" -arch="amd64" -output="jbt.." -ldflags "-X main.Rev=`git rev-parse --short HEAD`" -verbose ./...
 
 deploy:
   provider: releases
@@ -23,4 +25,3 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    condition: $LATEST = true
