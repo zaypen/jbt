@@ -9,3 +9,7 @@
 [[constraint]]
   branch = "master"
   name = "howett.net/plist"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "0.8.7"

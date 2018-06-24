@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/zaypen/jbt/updater"
+	"github.com/zaypen/jbt/core"
 	"github.com/zaypen/jbt/util"
 	"runtime"
 )
@@ -19,17 +19,17 @@ func init() {
 }
 
 func check() {
-	u, err := updater.NewUpdater(runtime.GOOS)
+	u, err := core.New(runtime.GOOS)
 	if err != nil {
-		fmt.Printf("ERROR: %s", err.Error())
+		fmt.Printf("Error: %s\n", err.Error())
 		return
 	}
-	installations := u.List()
+	installations := u.List(core.ProductCodes)
 	updates := u.Check(installations)
 	table := util.NewTable()
 	table.Header("Code", "Product", "Installed", "Version", "Update", "Latest")
-	for _, key := range updater.ProductCodes {
-		name := updater.ProductNames[key]
+	for _, key := range core.ProductCodes {
+		name := core.ProductNames[key]
 		installation := installations[key]
 		update, checked := updates[key]
 		installed := util.If(installation.Installed, "yes", "no").(string)

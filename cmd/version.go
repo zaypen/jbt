@@ -10,7 +10,7 @@ func init() {
 		Use:   "version",
 		Short: "Print the version number",
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("0.1")
+			fmt.Println(rootCmd.Version)
 		},
 	})
 }

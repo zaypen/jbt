@@ -8,6 +8,12 @@
   version = "v1.0"
 
 [[projects]]
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "418b41d23a1bf978c06faea5313ba194650ac088"
+  version = "v0.8.7"
+
+[[projects]]
   name = "github.com/spf13/cobra"
   packages = ["."]
   revision = "ef82de70bb3f60c65fb8eebacbb2d122ef517385"
@@ -23,7 +29,7 @@
   branch = "master"
   name = "github.com/zaypen/gest"
   packages = ["."]
-  revision = "a326fa5beca76854be723d42616ed2d346f05c17"
+  revision = "a973ec328546ac440c32f693bf0ba805a50430ca"
 
 [[projects]]
   branch = "master"
@@ -34,6 +40,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6c7ac10725499cad1118b770e05e07c389dfd435101480b334ea282110acf74b"
+  inputs-digest = "3bbd96f500b54c4e7154623d4b478f57c67661cfc3c5a30cc112183f40c19c8f"
   solver-name = "gps-cdcl"
   solver-version = 1
