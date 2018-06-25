@@ -8,20 +8,30 @@ git:
 before_install:
   - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
   - dep ensure
-  - go get github.com/mitchellh/gox
 
-script:
-  - go test ./...
-  - gox -os="linux darwin windows" -arch="amd64" -output="jbt.." -ldflags "-X main.Rev=`git rev-parse --short HEAD`" -verbose ./...
+jobs:
+  include:
+    - stage: Test
+      script: auto/test
+    - stage: Build
+      script: auto/build
+    - stage: Release
+      script: auto/release
+      deploy:
+        provider: releases
+        api_key:
+          secure: GroZWTS4b54X+ikAi6EjgRN664oN4fZFWT4HIAVrZprzqhDBKfEIN7wu3ozan3elpHsD7KBZSK4VRNPYONbmb5OEdSGU1cXALsw+DjAiLJLgwA0Dl384n1hOomDpQU5LdcilRxuwBwMmtI6EFYY9kTsGQKP/OyrvMq9jvmHuMSJBEl0WOh1lK9Da6dZfQ6Fl49nyWhC+KphdmSPOXRO57qt5D8nwH3Zv44BHmAKG91To68p0t0vcKKdywXYo8I8k9pawR/t+1y6b1PMMAJGPtXi6TCcbr/yUujzO0hPD4OPThIbJ1pQEjTqrHz8E5j5PyaiCgixL7qIsU7W6flvSpHqiG/h+QkU+BIr8fIUMp/5gVmqkFjY2D/fJHFKhtYeMxRcLnXVQ3yib6SgmdZC29Q5Z3FKWXzC0dAZNrJHPW8DMNzAHqLXN7fe4AoJlcTa2T232FcISOQRJSVl7KZqtHeDMLg2K3qjMFzWUSBJ7W+xHqeHfTHFfKLb0cKJH/0aTd3YhXvD/EOg37ucIn3/U48YGWt7fAO2a2ZMZOvON4fiKq3YoXGO/EWgWyZT2Lu1H2gNOgZn3sNNcxrA0fgod7j041TsYH14FDUZNctjKGi2fCaE01gaWYFdrhbZ/4pqt5MKteXjL6FxrZgexrMbQmt2n0rTdwrRSLz3kKvunc9A=
+        file:
+          - build/darwin_amd64.zip
+          - build/linux_amd64.zip
+          - build/windows_amd64.zip
+        skip_cleanup: true
+        on:
+          tags: true
 
-deploy:
-  provider: releases
-  api_key:
-    secure: GroZWTS4b54X+ikAi6EjgRN664oN4fZFWT4HIAVrZprzqhDBKfEIN7wu3ozan3elpHsD7KBZSK4VRNPYONbmb5OEdSGU1cXALsw+DjAiLJLgwA0Dl384n1hOomDpQU5LdcilRxuwBwMmtI6EFYY9kTsGQKP/OyrvMq9jvmHuMSJBEl0WOh1lK9Da6dZfQ6Fl49nyWhC+KphdmSPOXRO57qt5D8nwH3Zv44BHmAKG91To68p0t0vcKKdywXYo8I8k9pawR/t+1y6b1PMMAJGPtXi6TCcbr/yUujzO0hPD4OPThIbJ1pQEjTqrHz8E5j5PyaiCgixL7qIsU7W6flvSpHqiG/h+QkU+BIr8fIUMp/5gVmqkFjY2D/fJHFKhtYeMxRcLnXVQ3yib6SgmdZC29Q5Z3FKWXzC0dAZNrJHPW8DMNzAHqLXN7fe4AoJlcTa2T232FcISOQRJSVl7KZqtHeDMLg2K3qjMFzWUSBJ7W+xHqeHfTHFfKLb0cKJH/0aTd3YhXvD/EOg37ucIn3/U48YGWt7fAO2a2ZMZOvON4fiKq3YoXGO/EWgWyZT2Lu1H2gNOgZn3sNNcxrA0fgod7j041TsYH14FDUZNctjKGi2fCaE01gaWYFdrhbZ/4pqt5MKteXjL6FxrZgexrMbQmt2n0rTdwrRSLz3kKvunc9A=
-  file:
-    - jbt.darwin.amd64
-    - jbt.linux.amd64
-    - jbt.windows.amd64.exe
-  skip_cleanup: true
-  on:
-    tags: true
+stages:
+  - name: Test
+  - name: Build
+    if: branch = master
+  - name: Release
+    if: branch =~ /^v.*$/

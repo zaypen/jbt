@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+go get github.com/mitchellh/gox
+mkdir build && cd build
+gox -osarch="linux/amd64 darwin/amd64 windows/amd64" -output="{{.OS}}_{{.Arch}}/{{.Dir}}" ../...

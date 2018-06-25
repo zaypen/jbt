@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+$(dirname $0)/build
+cd build && for i in */; do cd "$i"; zip -r "../${i%/}.zip" ./; cd ..; done
