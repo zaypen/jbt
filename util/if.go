@@ -6,3 +6,10 @@ func If(condition bool, trueValue, falseValue interface{}) interface{} {
 	}
 	return falseValue
 }
+
+func Iff(condition bool, trueF func() interface{}, falseF func() interface{}) interface{} {
+	if condition {
+		return trueF()
+	}
+	return falseF()
+}
