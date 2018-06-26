@@ -104,7 +104,7 @@ func readChecksum(checksumFile string) (*string, error) {
 func download(platform string, code string, release Release) (*string, error) {
 	productName := ProductNames[code]
 	if downloads, ok := release.Downloads[platform]; ok {
-		fmt.Printf("Updating %s...\n", productName)
+		fmt.Printf("Updating %s to %s...\n", productName, release.Version)
 		productLink, checksumLink := downloads.Link, downloads.ChecksumLink
 		productTemp := filepath.Join(os.TempDir(), filepath.Base(productLink))
 		logrus.Debugf("Downloading release of %s to %s...", productName, productTemp)
@@ -152,7 +152,10 @@ func (e *executor) Check(installations map[string]Installation) map[string]Relea
 func (e *executor) Update(releases map[string]Release) {
 	for code, release := range releases {
 		if file, err := download(e.platform, code, release); err == nil {
-			e.install(code, *file)
+			if err := e.install(code, *file); err != nil {
+				fmt.Printf("Error: %v\n", err.Error())
+				break
+			}
 		} else {
 			fmt.Printf("Error: %v\n", err.Error())
 			break
