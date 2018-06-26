@@ -133,6 +133,66 @@ func download(platform string, code string, release Release) (*string, error) {
 	}
 }
 
+func copyFile(source string, destination string, writer *ProgressWriter) (err error) {
+	if fi, err := os.Lstat(source); err == nil {
+		if fi.Mode().IsRegular() {
+			if sf, err := os.Open(source); err == nil {
+				defer sf.Close()
+				if df, err := os.Create(destination); err == nil {
+					defer df.Close()
+					writer := io.MultiWriter(df, writer)
+					if _, err = io.Copy(writer, sf); err == nil {
+						if si, err := os.Stat(source); err == nil {
+							return os.Chmod(destination, si.Mode())
+						}
+					}
+				}
+			}
+		} else {
+			if target, err := os.Readlink(source); err == nil {
+				return os.Symlink(target, destination)
+			}
+		}
+	}
+	return
+}
+
+func copyDir(source string, destination string, writer *ProgressWriter) (err error) {
+	if fi, err := os.Lstat(source); err == nil {
+		if err = os.MkdirAll(destination, fi.Mode()); err == nil {
+			if fis, err := ioutil.ReadDir(source); err == nil {
+				for _, fi := range fis {
+					s := filepath.Join(source, fi.Name())
+					d := filepath.Join(destination, fi.Name())
+					if fi.IsDir() {
+						if err = copyDir(s, d, writer); err != nil {
+							return err
+						}
+					} else {
+						if err = copyFile(s, d, writer); err != nil {
+							return err
+						}
+					}
+				}
+			}
+		}
+	}
+	return
+}
+
+func sizeOf(location string) (size uint64, err error) {
+	err = filepath.Walk(location, func(path string, fi os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !fi.IsDir() && fi.Mode().IsRegular() {
+			size += uint64(fi.Size())
+		}
+		return nil
+	})
+	return
+}
+
 func (e *executor) List(codes []string) map[string]Installation {
 	return e.list(codes)
 }
@@ -166,7 +226,7 @@ func (e *executor) Update(releases map[string]Release) {
 func New(os string) (Executor, error) {
 	switch os {
 	case "darwin":
-		return &executor{"mac", darwinList, darwinInstall}, nil
+		return &executor{"mac", list, install}, nil
 	default:
 		return nil, errors.New(fmt.Sprintf("Not supported OS: %s", os))
 	}

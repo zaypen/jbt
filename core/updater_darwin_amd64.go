@@ -1,17 +1,14 @@
 package core
 
 import (
-	"errors"
 	"fmt"
-	"github.com/sirupsen/logrus"
-	"howett.net/plist"
-	"io"
-	"io/ioutil"
-	"os"
-	"os/exec"
-	"path"
 	"path/filepath"
+	"os/exec"
+	"os"
 	"syscall"
+	"github.com/sirupsen/logrus"
+	"errors"
+	"howett.net/plist"
 )
 
 var fileNames = map[string]string{
@@ -46,13 +43,13 @@ type bundleInfo struct {
 
 func detectInstallation(code string) (bool, string) {
 	productName := ProductNames[code]
-	location := path.Join(string(os.PathSeparator), "Applications", fileNames[code])
+	location := filepath.Join(string(os.PathSeparator), "Applications", fileNames[code])
 	logrus.Debugf("Detecting installation of %s...", productName)
 	if !exists(location) {
 		return false, ""
 	}
 	logrus.Debugf("Reading version of %s...", productName)
-	if version, err := readVersion(path.Join(location, "Contents", "Info.plist")); err == nil {
+	if version, err := readVersion(filepath.Join(location, "Contents", "Info.plist")); err == nil {
 		return true, *version
 	} else {
 		logrus.Warnf("Error while reading version of %s, %v", productName, err.Error())
@@ -74,73 +71,13 @@ func readVersion(name string) (*string, error) {
 	}
 }
 
-func darwinList(codes []string) map[string]Installation {
+func list(codes []string) map[string]Installation {
 	installations := make(map[string]Installation)
 	for _, code := range codes {
 		installed, version := detectInstallation(code)
 		installations[code] = Installation{installed, version}
 	}
 	return installations
-}
-
-func copyFile(source string, destination string, writer *ProgressWriter) (err error) {
-	if fi, err := os.Lstat(source); err == nil {
-		if fi.Mode().IsRegular() {
-			if sf, err := os.Open(source); err == nil {
-				defer sf.Close()
-				if df, err := os.Create(destination); err == nil {
-					defer df.Close()
-					writer := io.MultiWriter(df, writer)
-					if _, err = io.Copy(writer, sf); err == nil {
-						if si, err := os.Stat(source); err == nil {
-							return os.Chmod(destination, si.Mode())
-						}
-					}
-				}
-			}
-		} else {
-			if target, err := os.Readlink(source); err == nil {
-				return os.Symlink(target, destination)
-			}
-		}
-	}
-	return
-}
-
-func copyDir(source string, destination string, writer *ProgressWriter) (err error) {
-	if fi, err := os.Lstat(source); err == nil {
-		if err = os.MkdirAll(destination, fi.Mode()); err == nil {
-			if fis, err := ioutil.ReadDir(source); err == nil {
-				for _, fi := range fis {
-					s := filepath.Join(source, fi.Name())
-					d := filepath.Join(destination, fi.Name())
-					if fi.IsDir() {
-						if err = copyDir(s, d, writer); err != nil {
-							return err
-						}
-					} else {
-						if err = copyFile(s, d, writer); err != nil {
-							return err
-						}
-					}
-				}
-			}
-		}
-	}
-	return
-}
-
-func sizeOf(location string) (size uint64, err error) {
-	err = filepath.Walk(location, func(path string, fi os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
-		if !fi.IsDir() && fi.Mode().IsRegular() {
-			size += uint64(fi.Size())
-		}
-		return nil
-	})
-	return
 }
 
 func doCopy(source string, destination string) (err error) {
@@ -154,7 +91,7 @@ func doCopy(source string, destination string) (err error) {
 	return
 }
 
-func darwinInstall(code string, file string) (err error) {
+func install(code string, file string) (err error) {
 	productName := ProductNames[code]
 	fmt.Println(fmt.Sprintf("Mounting %s...", filepath.Base(file)))
 	if err = exec.Command("hdiutil", "attach", file).Run(); err == nil {
