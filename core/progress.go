@@ -2,7 +2,7 @@ package core
 
 import (
 	"fmt"
-	"github.com/zaypen/jbt/screen"
+	"github.com/buger/goterm"
 	"github.com/zaypen/jbt/strong"
 	"github.com/zaypen/jbt/unit"
 	"strings"
@@ -42,6 +42,5 @@ func (pw *ProgressWriter) Clear() {
 }
 
 func newProgressWriter(total uint64) *ProgressWriter {
-	width, _ := screen.Size()
-	return &ProgressWriter{width, 0, total}
+	return &ProgressWriter{goterm.Width(), 0, total}
 }

@@ -13,3 +13,7 @@
 [[constraint]]
   name = "github.com/sirupsen/logrus"
   version = "0.8.7"
+
+[[constraint]]
+  branch = "add-license-1"
+  name = "github.com/buger/goterm"

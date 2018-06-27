@@ -1,14 +1,14 @@
 package core
 
 import (
-	"fmt"
-	"path/filepath"
-	"os/exec"
-	"os"
-	"syscall"
-	"github.com/sirupsen/logrus"
 	"errors"
+	"fmt"
+	"github.com/sirupsen/logrus"
 	"howett.net/plist"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"syscall"
 )
 
 var fileNames = map[string]string{
