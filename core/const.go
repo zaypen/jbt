@@ -6,6 +6,7 @@ const (
 	AppCode   = "AC"
 	CLion     = "CL"
 	DataGrip  = "DG"
+	GoLand    = "GO"
 	Idea      = "IIU"
 	IdeaCE    = "IIC"
 	PhpStorm  = "PS"
@@ -15,12 +16,13 @@ const (
 	WebStorm  = "WS"
 )
 
-var ProductCodes = []string{AppCode, CLion, DataGrip, Idea, IdeaCE, PhpStorm, PyCharm, PyCharmCE, RubyMine, WebStorm}
+var ProductCodes = []string{AppCode, CLion, DataGrip, GoLand, Idea, IdeaCE, PhpStorm, PyCharm, PyCharmCE, RubyMine, WebStorm}
 
 var ProductNames = map[string]string{
 	AppCode:   "AppCode",
 	CLion:     "CLion",
 	DataGrip:  "DataGrip",
+	GoLand:    "GoLand",
 	Idea:      "IntelliJ IDEA",
 	IdeaCE:    "IntelliJ IDEA CE",
 	PhpStorm:  "PhpStorm",
