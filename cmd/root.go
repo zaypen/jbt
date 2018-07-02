@@ -5,6 +5,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/zaypen/jbt/util"
+	"github.com/zaypen/jbt/version"
 	"os"
 	"path/filepath"
 )
@@ -15,7 +16,7 @@ var rootCmd = &cobra.Command{
 	Use:     filepath.Base(os.Args[0]),
 	Short:   "JetBrains tools",
 	Long:    "JBT is a toolbox to manage your JetBrains products",
-	Version: "0.1.0",
+	Version: version.Version,
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
 		logrus.SetFormatter(&logrus.TextFormatter{})
 		logrus.SetLevel(util.If(verbose, logrus.DebugLevel, logrus.InfoLevel).(logrus.Level))

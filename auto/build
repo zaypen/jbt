@@ -2,6 +2,8 @@
 
 set -o errexit
 
+VERSION=$(git describe --always)
+
 go get github.com/mitchellh/gox
 mkdir build && cd build
-gox -osarch="linux/amd64 darwin/amd64 windows/amd64" -output="{{.OS}}_{{.Arch}}/{{.Dir}}" ../...
+gox  -ldflags "-X github.com/zaypen/jbt/version.Version=$VERSION" -osarch="linux/amd64 darwin/amd64 windows/amd64" -output="{{.OS}}_{{.Arch}}/{{.Dir}}" ../...
