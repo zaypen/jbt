@@ -22,12 +22,20 @@ func exists(name string) bool {
 	return err == nil
 }
 
+func subVersion(array []string, index int) string {
+	if index < len(array) {
+		return array[index]
+	}
+	return "0"
+}
+
 func compareVersion(a string, b string) int {
 	arrayA, arrayB := strings.Split(a, "."), strings.Split(b, ".")
 	lenA, lenB := len(arrayA), len(arrayB)
-	n := util.If(lenA < lenB, lenA, lenB).(int)
+	n := util.If(lenA > lenB, lenA, lenB).(int)
 	for i := 0; i < n; i++ {
-		subA, subB := util.Atoi(arrayA[i]), util.Atoi(arrayB[i])
+		subA := util.Atoi(subVersion(arrayA, i))
+		subB := util.Atoi(subVersion(arrayB, i))
 		if subA != subB {
 			return subA - subB
 		}
