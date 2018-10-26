@@ -2,7 +2,7 @@
 
 set -o errexit
 
-VERSION=$(git describe --always)
+VERSION=$(git describe --tags --always)
 
 go get github.com/mitchellh/gox
 mkdir build && cd build
