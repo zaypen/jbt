@@ -12,6 +12,14 @@ A cli tool to manage your JetBrains products.
 
 _currently only works on macOS_
 
+## Installation
+
+1. Check latest version of jbt from [GitHub Release](https://github.com/zaypen/jbt/releases)
+1. Download right binary for your system, please check out darwin for macOS
+1. Unzip and copy it to `/usr/local/bin` or anywhere you like but in PATH
+1. Run `chmod +x /usr/local/bin/jbt` to make it executable
+1. Try `jbt version`
+
 ## Usage
 
 ### List installations of all products
